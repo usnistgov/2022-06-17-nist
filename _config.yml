@@ -18,7 +18,7 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: "swc"
+carpentry: "hpc"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -32,7 +32,7 @@ carpentry: "swc"
 # dc-geospatial: for Data Carpentry Geospatial
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder: for Software Carpentry based on the Gapminder dataset
-curriculum: "FIXME"
+curriculum: "hpc-intro"
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
@@ -40,11 +40,12 @@ curriculum: "FIXME"
 # value of the variable below ("flavor") to get the schedule and installation
 # instructions updated accordingly (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry and SWC at this time.
-flavor: "FIXME"
+flavor: "python"
 
 # If the workshop will be a lesson pilot (for a new official lesson or
 # a lesson in The Carpentries Incubator), set pilot to "true"
-pilot: false
+pilot: true
+online: true_private
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
@@ -52,20 +53,20 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "HPC Carpentry at CTCMS"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "put the URL of the lesson being taught here"
+incubator_lesson_site: https://carpentries-incubator.github.io/hpc-intro/
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-# incubator_pre_survey: "put the URL of your pre-workshop survey here"
+incubator_pre_survey: "put the URL of your pre-workshop survey here"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-# incubator_post_survey: "put the URL of your post-workshop survey here"
+incubator_post_survey: "put the URL of your post-workshop survey here"
 #
 #------------------------------------------------------------
 
@@ -113,7 +114,7 @@ instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post
 
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
-start_time: 0
+start_time: 740
 
 # Specify that things in the episodes collection should be output.
 collections:
