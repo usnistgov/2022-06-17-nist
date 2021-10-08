@@ -63,7 +63,7 @@ title: "HPC Carpentry at CTCMS"
 incubator_lesson_site: https://carpentries-incubator.github.io/hpc-intro/
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-incubator_pre_survey: "put the URL of your pre-workshop survey here"
+incubator_pre_survey: "https://forms.gle/44PjzjxXCNnQiii27"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
 incubator_post_survey: "put the URL of your post-workshop survey here"
