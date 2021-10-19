@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "CTCMS"        # brief name without address
-address: "online"     # street address, URL, or 'online'
+address: "https://pages.nist.gov/2021-10-22-ctcms-online"
 country: "us"         # lowercase two-letter ISO country
 language: "en"        # lowercase two-letter ISO language
 latitude: "39.14"     # https://www.latlong.net/
@@ -60,6 +60,8 @@ possible values: <code>swc-inflammation</code>, or
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
+{% elsif site.carpentry == "hpc" %}
+{% include hpc/intro.html %}
 {% endif %}
 
 {% if site.pilot %}
@@ -81,6 +83,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% elsif site.carpentry == "hpc" %}
+{% include hpc/who.html %}
 {% endif %}
 
 {% comment %}
@@ -112,8 +116,6 @@ address.
 <p id="where">
   <strong>Where:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
@@ -147,7 +149,7 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -332,6 +334,10 @@ of code below the Schedule `<h2>` header below with
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
+{% elsif site.carpentry == "hpc" %}
+This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
+Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
+{% include hpc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
@@ -372,6 +378,8 @@ please preview your site before committing, and make sure to run
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
+  {% elsif site.carpentry == "hpc" %}
+  HPC Carpentry
   {% endif %}
   workshop,
   you will need access to software as described below.
@@ -391,7 +399,7 @@ For online workshops, the section below provides:
 
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
+to include the relevant installation instructions.
 {% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
@@ -408,6 +416,8 @@ during the workshop.
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+{% elsif site.carpentry == "hpc" %}
+{% include hpc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
