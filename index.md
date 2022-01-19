@@ -241,8 +241,7 @@ for more information.
 <p id="roles">
 <strong>Roles:</strong>
 To learn more about the roles at the workshop (who will be doing what),
-refer to <a
-href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our
+refer to The Carpentries' <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">
 Workshop FAQ</a>.
 </p>
 
