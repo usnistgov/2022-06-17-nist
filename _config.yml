@@ -1,3 +1,4 @@
+---
 #------------------------------------------------------------
 # Values for this workshop.
 #------------------------------------------------------------
@@ -34,7 +35,7 @@ carpentry: incubator
 # swc-gapminder: for Software Carpentry based on the Gapminder
 # dataset
 # incubator: for Carpentries Incubator material
-curriculum: hpc-intro
+curriculum: incubator
 
 # If there is both an R and python official version of a curriculum
 # (as listed on https://software-carpentry.org/lessons/ and
