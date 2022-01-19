@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "CTCMS"        # brief name without address
-address: "https://pages.nist.gov/2021-10-22-ctcms-online"
+address: "https://pages.nist.gov/2022-02-04-ctcms-online"
 country: "us"         # lowercase two-letter ISO country
 language: "en"        # lowercase two-letter ISO language
 latitude: "39.14"     # https://www.latlong.net/
 longitude: "-77.22"   #
-humandate: "Oct 22, 2021" # human-readable dates (e.g., "Feb 17-18, 2020")
+humandate: "Feb 04, 2022" # human-readable dates (e.g., "Feb 17-18, 2020")
 humantime: "11:00 am - 4:00 pm EDT"
-startdate: 2021-10-22 # machine-readable start date, YYYY-MM-DD
-enddate:   2021-10-22 # machine-readable end date, YYYY-MM-DD
+startdate: 2022-02-04 # machine-readable start date, YYYY-MM-DD
+enddate:   2022-02-04 # machine-readable end date, YYYY-MM-DD
 instructor: ["Andrew Reid", "Trevor Keller"] # boxed, comma-separated list of strings
 helper: []     # boxed, comma-separated list of strings
 email: ["andrew.reid@nist.gov","trevor.keller@nist.gov"]
-collaborative_notes:  "https://codimd.carpentries.org/vMa56R8dRJyExGw111zvog?both"
+collaborative_notes:  "https://codimd.carpentries.org/VzGjRrjNQI6hR-nUKzJpqQ?both"
 ---
 
 {% comment %}
