@@ -1,4 +1,4 @@
-[![Website](https://github.com/carpentries/workshop-template/actions/workflows/website.yml/badge.svg)](https://github.com/carpentries/workshop-template/actions/workflows/website.yml)
+[![Website](https://github.com/carpentries/workshop-template/actions/workflows/website.yml/badge.svg)[webyml]
 
 # The Carpentries Workshop Template
 
@@ -247,3 +247,4 @@ or [mail us][email].
 [self-organized-workshop-form]: https://amy.carpentries.org/forms/self-organised/
 [swc-site]: https://software-carpentry.org
 [lc-site]: https://librarycarpentry.org
+[webyml]: https://github.com/carpentries/workshop-template/actions/workflows/website.yml
