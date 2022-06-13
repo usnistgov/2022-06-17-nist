@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "CTCMS"        # brief name without address
-address: "https://pages.nist.gov/2022-06-17-nist"
+address: "https://pages.nist.gov/2022-06-24-nist"
 country: "us"         # lowercase two-letter ISO country
 language: "en"        # lowercase two-letter ISO language
 latitude: "39.14"     # https://www.latlong.net/
